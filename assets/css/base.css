@@ -10,6 +10,8 @@
   --clr-theme-gold: 185, 150, 91;
   --clr-theme-gold-deep: 146, 114, 63;
   --clr-theme-gold-soft: 239, 227, 210;
+  --clr-verified: 112, 144, 96;
+  --clr-verified-bg: 238, 242, 232;
   --clr-theme-muted: 103, 99, 91;
   --clr-theme-slate: 73, 68, 60;
   --clr-theme-muted-bg: 235, 224, 203;
@@ -272,6 +274,15 @@ h6 {
   height: 2.25rem;
   border-radius: 50px;
 }
+.labs__btn.labs__btn-white {
+  background-color: var(--clr-theme-white);
+  color: rgba(var(--clr-theme-ink), 1);
+  border: 1px solid rgba(var(--clr-theme-border), 0.15);
+}
+.labs__btn.labs__btn-white:hover {
+  color: rgba(var(--clr-theme-gold-deep), 1);
+  border-color: rgba(var(--clr-theme-gold-deep), 1);
+}
 .labs__shine:hover::after {
   animation: labsShine 1.3s ease-out;
 }
@@ -402,7 +413,7 @@ h6 {
   margin-bottom: 16px;
 }
 .form-control::placeholder {
-  color: var(--clr-theme-copy);
+  color: #9ca3af;
 }
 textarea.form-control {
   min-height: 142px;
