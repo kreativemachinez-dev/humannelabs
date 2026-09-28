@@ -9,6 +9,7 @@
   --clr-theme-ink: 27, 24, 19;
   --clr-theme-gold: 185, 150, 91;
   --clr-theme-gold-deep: 146, 114, 63;
+  --clr-theme-gold-soft: 239, 227, 210;
   --clr-theme-muted: 103, 99, 91;
   --clr-theme-slate: 73, 68, 60;
   --clr-theme-muted-bg: 235, 224, 203;
@@ -259,6 +260,17 @@ h6 {
 }
 .labs__btn:hover {
   background-color: rgb(146, 114, 63);
+}
+.labs__btn-round {
+  background: linear-gradient(145deg,#dcb072,#b98341);
+  box-shadow: 0 6px 14px -6px rgba(150,100,45,.7);
+  color: #fffdf8;
+  width: 2.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.25rem;
+  border-radius: 50px;
 }
 .labs__shine:hover::after {
   animation: labsShine 1.3s ease-out;
