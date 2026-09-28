@@ -315,7 +315,11 @@ position: absolute;
 .labs__resources-wrap {
   margin-top: 3rem;
 }
-
+.labs__resources .labs__heading p {
+  font-size: 15px;
+  color: rgba(var(--clr-theme-muted), 1);
+  margin-top: 1rem;
+}
 /* footer */
 .labs__footer {
   position: relative;
