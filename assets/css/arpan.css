@@ -1,0 +1,557 @@
+/* Privacy-policy start */
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.privacy-policy .container {
+    max-width: 704px;
+}
+
+.privacy-policy h1 {
+    font-family: var(--ff-heading);
+    font-size: 36px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.privacy-policy-contents-wrap h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: var(--ff-body);
+    color: #67635b;
+    font-weight: 500;
+    letter-spacing: 1.67px;
+}
+
+.privacy-policy-contents-wrap,
+.privacy-policy-contents-wrap p a,
+.back-button-policy,
+.privacy-policy-contents-wrap h5 {
+    font-family: var(--ff-body);
+    color: #67635b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.privacy-policy-contents-wrap h5 {
+    margin-top: 12px;
+}
+
+.policy-contents {
+    margin-top: 20px;
+}
+
+.back-button-policy {
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.authorise-contents-single {
+    padding: 16px;
+    border: 1px solid #e0dbd2;
+    border-radius: 12px;
+    background: #fbf6ef66;
+    margin-top: 40px;
+}
+
+.authorise-contents-single h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: var(--ff-body);
+    color: #67635b;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+}
+
+.authorise-contents p {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.related-policies {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 24px;
+    column-gap: 4px;
+    flex-wrap: wrap;
+}
+
+.related-policies ul {
+    display: flex;
+    align-items: center;
+    gap: 4px 10px;
+    flex-wrap: wrap;
+}
+
+.related-policies li a {
+    text-underline-offset: 3px;
+    text-decoration: underline;
+    color: #67635b;
+}
+
+.related-policies ul li {
+    position: relative;
+}
+
+.related-policies ul li:not(:last-child):after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #67635b;
+    right: -6px;
+    top: 10px;
+}
+
+.privacy-policy a:hover {
+    color: #1b1813;
+}
+
+
+/* Privacy-policy end */
+
+/* About Page Start */
+
+.inner-hero-contents .container,
+.humanlabs-contact .container,
+.humanlabs-contact-help .container {
+    max-width: 744px;
+}
+
+.inner-contents-wrap h1 {
+    font-family: var(--ff-heading);
+    font-size: 48px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.inner-contents-wrap h6 {
+    color: #b9965b;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--ff-body);
+    letter-spacing: 1.9px;
+    margin-bottom: 8px;
+}
+
+.inner-contents-wrap .labs__content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #67635b;
+}
+
+.humanlabs-about-card .container,
+.humanlabs-labresult-card .container,
+.lab-testing-work .container {
+    max-width: 976px;
+}
+
+.humanlabs-aboutcard-single {
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e0dbd2;
+    height: 100%;
+}
+
+.row>*:has(.humanlabs-aboutcard-single),
+.row>*:has(.lab-testing-single) {
+    padding: 0 8px;
+}
+
+.row:has(.humanlabs-aboutcard-single),
+.row:has(.lab-testing-single) {
+    row-gap: 16px;
+    margin: 0 -8px;
+}
+
+.humanlabs-aboutcard-single h4,
+.humanlabs-contact-form h4,
+.humanlabs-contact-help-wrap h4 {
+    font-family: var(--ff-heading);
+    font-size: 16px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.15px;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.humanlabs-aboutcard-single h4::after,
+.humanlabs-contact-form h4::after,
+.humanlabs-contact-help-wrap h4::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 56px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #c98a5b, rgba(201, 138, 91, 0));
+    bottom: 0;
+    left: 0;
+}
+
+.humanlabs-about-card p {
+    color: #67635b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.browse-catalog .container {
+    max-width: 1048px;
+}
+
+.labs__btn.labs_about {
+    padding: 16px 32px;
+    background: #b9965b;
+    color: var(--clr-theme-dark);
+}
+
+.labs__btn.labs_about:hover {
+    background: #b9965b;
+}
+
+.browse-catalog-wrap {
+    text-align: center;
+    padding: 40px;
+    background: #f3eadc;
+    border: 1px solid #e0dbd2;
+    border-radius: 24px;
+}
+
+.browse-catalog-wrap h3 {
+    font-family: var(--ff-heading);
+    font-size: 30px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.15px;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.browse-catalog-wrap h3::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 56px;
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(193, 142, 80, 0), rgba(193, 142, 80, .85), rgba(193, 142, 80, 0));
+}
+
+.browse-catalog-wrap p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #67635b;
+}
+
+/* About Page End */
+
+/* Lab Results Start */
+
+.humanlabs-labresult-card .humanlabs-aboutcard-single {
+    display: flex;
+    column-gap: 12px;
+    justify-content: space-between;
+    padding-left: 45px;
+}
+
+.humanlabs-labresult-card .humanlabs-aboutcard-single .view-button {
+    margin-left: auto;
+}
+
+.labs__btn.view_button {
+    border: 1px solid #e0dbd2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    column-gap: 5px;
+    padding: 8px 16px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: transparent;
+    text-transform: capitalize;
+}
+
+.labs__btn.view_button:hover {
+    background: #ebe0cb;
+}
+
+.view_button svg {
+    width: 14px;
+    height: 14px;
+    stroke: var(--clr-theme-dark);
+}
+
+.humanlabs-labresult-card .humanlabs-aboutcard-single h4::before {
+    color: #b9965b;
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    flex-shrink: 0;
+    background-color: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4'/%3E%3Cpath d='M14 2v4a2 2 0 0 0 2 2h4'/%3E%3Cpath d='m3 15 2 2 4-4'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4'/%3E%3Cpath d='M14 2v4a2 2 0 0 0 2 2h4'/%3E%3Cpath d='m3 15 2 2 4-4'/%3E%3C/svg%3E") center / contain no-repeat;
+    position: absolute;
+    left: -25px;
+}
+
+.lab-testing-work-wrap h3 {
+    font-family: var(--ff-heading);
+    font-size: 24px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.lab-testing-single {
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e0dbd2;
+    height: 100%;
+}
+
+.lab-testing-single .number {
+    width: 36px;
+    height: 36px;
+    color: #b9965b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f4ee;
+    font-weight: 700;
+}
+
+.lab-testing-single h4 {
+    font-family: var(--ff-heading);
+    font-size: 16px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+}
+
+.lab-testing-single p {
+    font-size: 14px;
+}
+
+.inner-contents-wrap .humanlabs-contact-form {
+    padding: 0;
+    border: none;
+    border-radius: 50px;
+}
+
+.inner-contents-wrap .humanlabs-contact-form input {
+    border-radius: 50px;
+    padding-inline: 25px;
+}
+
+/* Lab Results End */
+
+/* Contact Us Start */
+
+.labs__content p a {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #67635b;
+}
+
+.labs__content p a:hover {
+    color: #1b1813;
+}
+
+.copy-email {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.inner-contents-wrap .copy-email p {
+    font-size: 14px;
+}
+
+.copy-email .labs__btn.view_button {
+    font-size: 12px;
+}
+
+.humanlabs-contact-form .form-control,
+.humanlabs-contact-form .form-select {
+    text-transform: unset;
+    border: 1px solid #e0dbd2;
+    border-radius: 8px;
+    color: var(--clr-theme-dark);
+    padding: 11px 15px;
+    transition: var(--transition);
+    font-size: 15px;
+}
+
+.humanlabs-contact-form .form-select {
+    cursor: pointer;
+}
+
+
+.humanlabs-contact-form .form-control::placeholder {
+    opacity: 0.75;
+}
+
+.humanlabs-contact-form .form-control:focus,
+.humanlabs-contact-form .form-select:focus {
+    border-color: #b9965b;
+    box-shadow: inherit;
+}
+
+textarea.form-control {
+    resize: none;
+    height: 120px;
+}
+
+.humanlabs-contact-form,
+.humanlabs-contact-help-wrap {
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e0dbd2;
+}
+
+.form-submit .blue-button {
+    width: fit-content;
+}
+
+.form-submit input {
+    border: none;
+}
+
+.humanlabs-contact-form h4 {
+    font-size: 20px;
+}
+
+.humanlabs-contact-form p {
+    font-size: 14px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: var(--clr-theme-dark);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.humanlabs-contact-form form {
+    margin-top: 24px;
+}
+
+.form-group label span {
+    font-weight: 400;
+}
+
+.humanlabs-contact-form .row>* {
+    padding: 0 8px;
+}
+
+.humanlabs-contact-form .row {
+    margin: 0 -8px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-group.form-submit input {
+    padding: 14px 30px 14px 50px;
+    background: #b9965b;
+    color: var(--clr-theme-dark);
+    font-size: 13px;
+}
+
+.form-group.form-submit {
+    width: fit-content;
+    position: relative;
+}
+
+.form-group.form-submit::after {
+    content: "";
+    width: 16px;
+    pointer-events: none;
+    height: 16px;
+    display: inline-block;
+    flex-shrink: 0;
+    position: absolute;
+    left: 27px;
+    top: 15px;
+    color: var(--clr-theme-dark);
+    background-color: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z'/%3E%3Cpath d='m21.854 2.147-10.94 10.939'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z'/%3E%3Cpath d='m21.854 2.147-10.94 10.939'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.contact-help-listing ul li+li {
+    margin-top: 7px;
+}
+
+.contact-help-listing ul li {
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.contact-help-listing ul li::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    background-color: currentColor;
+    color: #b9965b;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E") center / contain no-repeat;
+
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.contact-help-listing {
+    border-bottom: 1px solid #e0dbd2;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.humanlabs-contact-help-wrap p a {
+    color: #67635b;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.humanlabs-contact-help-wrap p a:hover {
+    color: #1b1813;
+}
+
+/* Contact Us End */

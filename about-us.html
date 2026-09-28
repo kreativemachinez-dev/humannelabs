@@ -1,0 +1,431 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Humanne Labs</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="./assets/css/fancybox.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css"> -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/arpan.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+
+    <div class="offcanvas offcanvas-end poplyn__qv-offcanvas" tabindex="-1" id="offcanvasQuickView"
+        aria-labelledby="offcanvasQuickViewLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasQuickViewLabel">Choose Your Option</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="poplyn__qv-top">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="poplyn__qv-media">
+                            <div class="poplyn__img">
+                                <img src="./assets/images/product-img-1.webp" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="poplyn__qv-content">
+                            <h4>Sahara Linen Co-ord Set</h4>
+                            <p>Effortlessly elegant, the Sahara Linen Co-ord Set blends breathable comfort with timeless
+                                minimal style
+                                for every occasion.</p>
+                            <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                    <span class="woocommerce-Price-currencySymbol">₹</span>
+                                    4,199.00
+                                </bdi>
+                            </span>
+                            <a href="javascript:void(0)" class="poplyn__btn">View Products Details</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="size-selector">
+                            <div class="size-selector__header">
+                                <span>Size: <strong id="selectedSize">XS</strong></span>
+
+                                <div class="size-selector__links">
+                                    <button type="button">Fit Finder</button>
+                                    <button type="button">Size Chart</button>
+                                </div>
+                            </div>
+
+                            <div class="size-selector__options">
+                                <button class="size-btn active" data-size="XS">XS</button>
+                                <button class="size-btn" data-size="S">S</button>
+                                <button class="size-btn" data-size="M">M</button>
+                                <button class="size-btn" data-size="L">L</button>
+                                <button class="size-btn" data-size="XL">XL</button>
+                                <button class="size-btn" data-size="XXL">XXL</button>
+                                <button class="size-btn" data-size="3XL">3XL</button>
+                            </div>
+
+                            <div class="size-selector__quantity">
+                                Quantity:
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="labs__header">
+        <nav class="navbar navbar-expand-sm p-0">
+            <div class="container">
+                <a class="navbar-brand p-0 m-0" href="#">
+                    <img src="./assets/images/logo.png" alt="Hummane Labs Logo">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lab Tests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="labs__qa d-flex align-items-center">
+                        <div class="labs__btn-wrap">
+                            <a href="javascript:void(0)" class="labs__btn labs__shine" role="button">Contact us</a>
+                        </div>
+                        <ul class="labs__qa-list d-flex align-items-center">
+                            <li>
+                                <a href="javascript:void(0)" class="labs__qa-link" aria-label="Search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.3-4.3"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="labs__qa-link" aria-label="User Account">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-user">
+                                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="labs__qa-link" aria-label="Wishlist">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-shopping-cart">
+                                        <circle cx="8" cy="21" r="1"></circle>
+                                        <circle cx="19" cy="21" r="1"></circle>
+                                        <path
+                                            d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="inner-hero-contents py-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="inner-contents-wrap">
+                            <h6>Our story</h6>
+                            <h1>About Humanne Labs</h1>
+                            <div class="labs__content">
+                                <p>Humanne Labs supplies research-grade compounds to laboratories, universities and
+                                    independent researchers. Every product we list is intended strictly for in-vitro
+                                    laboratory research and is not for human or animal consumption.</p>
+                                <p>Our work centers on one thing: consistency you can verify. Batch documentation,
+                                    including the Certificates of Analysis we publish, is gathered on our Lab Results
+                                    page so your work starts from a known reference point.</p>
+                                <p>We built Humanne Labs for researchers who value transparent sourcing, careful
+                                    handling and fast, discreet fulfillment. If a batch doesn't meet our specification,
+                                    it doesn't ship.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="humanlabs-about-card py-20 pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="humanlabs-aboutcard-single">
+                            <h4>Checked before it ships</h4>
+                            <div class="labs__content">
+                                <p>Batches are verified against specification before they are listed, and testing
+                                    documentation is published on our Lab Results page as it is completed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="humanlabs-aboutcard-single">
+                            <h4>Documented & traceable</h4>
+                            <div class="labs__content">
+                                <p>Every compound is tied to a batch record, and the Certificates of Analysis we hold
+                                    are published on the Lab Results page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="humanlabs-aboutcard-single">
+                            <h4>Handled with care</h4>
+                            <div class="labs__content">
+                                <p>Temperature-aware storage and packaging protect compound integrity from our facility
+                                    to your bench.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="humanlabs-aboutcard-single">
+                            <h4>Fast, discreet shipping</h4>
+                            <div class="labs__content">
+                                <p>In-stock orders are processed quickly and shipped in plain, unbranded packaging.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="browse-catalog py-20 pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="browse-catalog-wrap">
+                            <h3>Browse the catalog</h3>
+                            <div class="labs__content">
+                                <p>Research-grade compounds, shipped fast.</p>
+                                <div class="labs__btn-wrap">
+                                    <a href="javascript:void(0)" class="labs__btn labs__shine labs_about" role="button">
+                                        Shop Now
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="m12 5 7 7-7 7"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="labs__footer labs__bg-muted py-16">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="labs__footer-nav">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="labs__footer-col">
+                                    <a href="javascript:void(0);" class="labs__footer-logo">
+                                        <img src="./assets/images/logo.png" alt="Hummane Labs Logo">
+                                    </a>
+                                    <div class="labs__content">
+                                        <p><em>From Beverly Hills</em></p>
+                                        <p>Lab-verified research peptides. Purity measured, identity confirmed, and a
+                                            Certificate of
+                                            Analysis published on every vial. Email: support@humanne.com. Phone: +1
+                                            (424) 786-6666.</p>
+                                    </div>
+                                    <div class="labs__footer-contact">
+                                        <a href="mailto:support@humanne.com">support@humanne.com</a>
+                                        <a href="tel:+14247866666">+1 (424) 786-6666</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="labs__footer-col">
+                                    <h5>Quick Links</h5>
+                                    <ul class="labs__footer-list">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Size Guide</a></li>
+                                        <li><a href="#">Shipping & Delivery</a></li>
+                                        <li><a href="#">Returns & Exchanges</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="labs__footer-col">
+                                    <h5>Quick Links</h5>
+                                    <ul class="labs__footer-list">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Size Guide</a></li>
+                                        <li><a href="#">Shipping & Delivery</a></li>
+                                        <li><a href="#">Returns & Exchanges</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="labs__footer-col">
+                                    <h5>Quick Links</h5>
+                                    <ul class="labs__footer-list">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Size Guide</a></li>
+                                        <li><a href="#">Shipping & Delivery</a></li>
+                                        <li><a href="#">Returns & Exchanges</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labs__footer-copy">
+                        <div class="row">
+                            <div class="col">
+                                <div class="labs__content">
+                                    <p>© 2026 Humanne Labs. For research use only. Not for human or veterinary
+                                        consumption.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <ul class="labs__footer-page-list d-flex justify-content-end align-items-center gap-4">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Research Use Only</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="labs__social custom__py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="labs__social-list d-flex justify-content-center align-items-center">
+                        <li>
+                            <a href="javascript:void(0)" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="labs__disclaimer labs__bg-muted py-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="labs__content">
+                        <h5>FDA & Legal Disclaimer
+                            <span class="hm-rule on"></span>
+                        </h5>
+                        <p>The statements made within this website have not been evaluated by the US Food and Drug
+                            Administration.
+                            The products offered by Humanne Labs LLC are not intended to diagnose, treat, cure, or
+                            prevent any
+                            disease.</p>
+                        <p>All products are sold for in-vitro research and laboratory development use only. They are not
+                            for human
+                            consumption or diagnostic use.</p>
+                        <p>Regulatory classification details are provided in our <a href="javascript:void(0);">Terms &
+                                Conditions</a> to keep this page focused on product and support information.</p>
+                        <p>The customer acknowledges the risks associated with handling these products and certifies
+                            that they have
+                            the proper equipment, facilities, and trained personnel to manage those risks. The customer
+                            knowingly
+                            accepts these risks and agrees to indemnify and hold Humanne Labs LLC harmless from any
+                            claims arising
+                            from the misuse or misapplication of these products outside of their intended, stated
+                            purpose.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script> -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/fancybox.umd.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

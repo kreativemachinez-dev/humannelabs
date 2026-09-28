@@ -351,3 +351,16 @@ $(document).ready(function () {
     });
   });
 });
+
+
+// Form Select Color
+
+$(".humanlabs-contact-form .form-select").on("change", function () {
+  if (this.selectedIndex > 0) {
+    $(this).css("color", "#1E1E1E");
+  } else {
+    $(this).css("color", "#8B847B");
+  }
+});
+
+// Form Select Color
