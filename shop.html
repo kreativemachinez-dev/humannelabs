@@ -1,0 +1,953 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Humanne Labs</title>
+
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="stylesheet" href="./assets/css/arpan.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+  <header class="labs__header">
+    <nav class="navbar navbar-expand-sm p-0">
+      <div class="container">
+        <a class="navbar-brand p-0 m-0" href="#">
+          <img src="./assets/images/logo.png" alt="Hummane Labs Logo">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lab Tests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="labs__qa d-flex align-items-center">
+            <div class="labs__btn-wrap">
+              <a href="javascript:void(0)" class="labs__btn labs__shine" role="button">Contact us</a>
+            </div>
+            <ul class="labs__qa-list d-flex align-items-center">
+              <li>
+                <a href="javascript:void(0)" class="labs__qa-link" aria-label="Search">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class="labs__qa-link" aria-label="User Account">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class="labs__qa-link" aria-label="Wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="labs__shop py-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="labs__heading">
+              <h6>Research Catalog</h6>
+              <h2>All Research Peptides</h2>
+              <p>Every compound is third-party HPLC and mass-spec tested to ≥ 99% purity, with a Certificate of Analysis on every vial. Strictly for in-vitro laboratory research.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="labs__products labs__products-shop py-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="labs__shop-top d-flex align-items-center justify-content-between">
+              <ul class="nav nav-tabs labs__products-nav" id="productTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link labs__shine active" id="product-tab-1" data-bs-toggle="tab" data-bs-target="#product-tab-1-pane" type="button" role="tab" aria-controls="product-tab-1-pane" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link labs__shine" id="product-tab-2" data-bs-toggle="tab" data-bs-target="#product-tab-2-pane" type="button" role="tab" aria-controls="product-tab-2-pane" aria-selected="false">Repair</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link labs__shine" id="product-tab-3" data-bs-toggle="tab" data-bs-target="#product-tab-3-pane" type="button" role="tab" aria-controls="product-tab-3-pane" aria-selected="false">Cognitive</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link labs__shine" id="product-tab-4" data-bs-toggle="tab" data-bs-target="#product-tab-4-pane" type="button" role="tab" aria-controls="product-tab-4-pane" aria-selected="false">Longevity</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link labs__shine" id="product-tab-5" data-bs-toggle="tab" data-bs-target="#product-tab-5-pane" type="button" role="tab" aria-controls="product-tab-5-pane" aria-selected="false">Cellular</button>
+                </li>
+              </ul>
+              <form class="labs__search mt-0" role="search">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-humanne-muted"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                </div>
+                <input class="form-control" type="search" placeholder="Search peptides…" aria-label="Search">
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="tab-content labs__products-content" id="productTabContent">
+              <div class="tab-pane fade show active" id="product-tab-1-pane" role="tabpanel" aria-labelledby="product-tab-1" tabindex="0">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-tab-2-pane" role="tabpanel" aria-labelledby="product-tab-2" tabindex="0">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-tab-3-pane" role="tabpanel" aria-labelledby="product-tab-3" tabindex="0">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-tab-4-pane" role="tabpanel" aria-labelledby="product-tab-4" tabindex="0">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-tab-5-pane" role="tabpanel" aria-labelledby="product-tab-5" tabindex="0">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="labs__product-single">
+                      <span class="pro-num">01</span>
+                      <a href="#" class="labs__media">
+                        <div class="labs__img">
+                          <img src="./assets/images/BAC-water-10mg.png" alt="BAC water 10mg">
+                        </div>
+                      </a>
+                      <div class="labs__content">
+                        <a href="#" class="labs__title">
+                          <h4>BAC+ Water</h4>
+                        </a>
+                        <span class="volume">10 ML</span>
+                        <div class="labs__product-bottom d-flex align-items-center justify-content-between">
+                          <div class="labs__product-price price">
+                            <ins>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                  <span class="woocommerce-Price-currencySymbol" translate="no">$</span>
+                                  25.00
+                                </bdi>
+                              </span>
+                            </ins>
+                          </div>
+                          <a href="#" class="labs__btn-round" role="button">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="labs__shop-enquiry py-20 pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 mx-auto">
+            <div class="labs__form">
+              <h4>Looking for a compound we don't list?</h4>
+              <p>Tell us what you need for your research and we'll let you know if we can source it.</p>
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="">Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="">Email</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="">Compound you're looking for</label>
+                      <input type="text" class="form-control" placeholder="e.g. a specific peptide, size or format">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="">Anything else (optional)</label>
+                      <textarea name="" id="" class="form-control" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group form-submit">
+                      <input class="labs__btn labs__shine" type="submit" value="Send Message">
+                    </div>
+                  </div>
+                </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="labs__footer labs__bg-muted py-16">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="labs__footer-nav">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="labs__footer-col">
+                  <a href="javascript:void(0);" class="labs__footer-logo">
+                    <img src="./assets/images/logo.png" alt="Hummane Labs Logo">
+                  </a>
+                  <div class="labs__content">
+                    <p><em>From Beverly Hills</em></p>
+                    <p>Lab-verified research peptides. Purity measured, identity confirmed, and a Certificate of Analysis published on every vial. Email: support@humanne.com. Phone: +1 (424) 786-6666.</p>
+                  </div>
+                  <div class="labs__footer-contact">
+                    <a href="mailto:support@humanne.com">support@humanne.com</a>
+                    <a href="tel:+14247866666">+1 (424) 786-6666</a></div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="labs__footer-col">
+                  <h5>Quick Links</h5>
+                  <ul class="labs__footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="labs__footer-col">
+                  <h5>Quick Links</h5>
+                  <ul class="labs__footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="labs__footer-col">
+                  <h5>Quick Links</h5>
+                  <ul class="labs__footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="labs__footer-copy">
+            <div class="row">
+              <div class="col">
+                <div class="labs__content">
+                  <p>© 2026 Humanne Labs. For research use only. Not for human or veterinary consumption.</p>
+                </div>
+              </div>
+              <div class="col">
+                <ul class="labs__footer-page-list d-flex justify-content-end align-items-center gap-4">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Research Use Only</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section class="labs__social custom__py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="labs__social-list d-flex justify-content-center align-items-center">
+            <li>
+              <a href="javascript:void(0)" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="labs__disclaimer labs__bg-muted py-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="labs__content">
+            <h5>FDA & Legal Disclaimer
+              <span class="hm-rule on"></span>
+            </h5>
+            <p>The statements made within this website have not been evaluated by the US Food and Drug Administration. The products offered by Humanne Labs LLC are not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p>All products are sold for in-vitro research and laboratory development use only. They are not for human consumption or diagnostic use.</p>
+            <p>Regulatory classification details are provided in our <a href="javascript:void(0);">Terms & Conditions</a> to keep this page focused on product and support information.</p>
+            <p>The customer acknowledges the risks associated with handling these products and certifies that they have the proper equipment, facilities, and trained personnel to manage those risks. The customer knowingly accepts these risks and agrees to indemnify and hold Humanne Labs LLC harmless from any claims arising from the misuse or misapplication of these products outside of their intended, stated purpose.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script> -->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <script src="./assets/js/fancybox.umd.js"></script>
+  <script src="./assets/js/animation.js"></script>
+  <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

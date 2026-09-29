@@ -175,7 +175,7 @@
 }
 
 .humanlabs-aboutcard-single h4,
-.humanlabs-contact-form h4,
+.labs__form h4,
 .humanlabs-contact-help-wrap h4 {
     font-family: var(--ff-heading);
     font-size: 16px;
@@ -188,7 +188,7 @@
 }
 
 .humanlabs-aboutcard-single h4::after,
-.humanlabs-contact-form h4::after,
+.labs__form h4::after,
 .humanlabs-contact-help-wrap h4::after {
     content: '';
     position: absolute;
@@ -355,13 +355,13 @@
     font-size: 14px;
 }
 
-.inner-contents-wrap .humanlabs-contact-form {
+.inner-contents-wrap .labs__form {
     padding: 0;
     border: none;
     border-radius: 50px;
 }
 
-.inner-contents-wrap .humanlabs-contact-form input {
+.inner-contents-wrap .labs__form input {
     border-radius: 50px;
     padding-inline: 25px;
 }
@@ -394,8 +394,8 @@
     font-size: 12px;
 }
 
-.humanlabs-contact-form .form-control,
-.humanlabs-contact-form .form-select {
+.labs__form .form-control,
+.labs__form .form-select {
     text-transform: unset;
     border: 1px solid #e0dbd2;
     border-radius: 8px;
@@ -405,27 +405,23 @@
     font-size: 15px;
 }
 
-.humanlabs-contact-form .form-select {
+.labs__form .form-select {
     cursor: pointer;
 }
 
 
-.humanlabs-contact-form .form-control::placeholder {
+.labs__form .form-control::placeholder {
     opacity: 0.75;
 }
 
-.humanlabs-contact-form .form-control:focus,
-.humanlabs-contact-form .form-select:focus {
+.labs__form .form-control:focus,
+.labs__form .form-select:focus {
     border-color: #b9965b;
     box-shadow: inherit;
 }
 
-textarea.form-control {
-    resize: none;
-    height: 120px;
-}
 
-.humanlabs-contact-form,
+.labs__form,
 .humanlabs-contact-help-wrap {
     padding: 32px;
     background: #fff;
@@ -441,11 +437,11 @@ textarea.form-control {
     border: none;
 }
 
-.humanlabs-contact-form h4 {
+.labs__form h4 {
     font-size: 20px;
 }
 
-.humanlabs-contact-form p {
+.labs__form p {
     font-size: 14px;
 }
 
@@ -456,7 +452,7 @@ textarea.form-control {
     margin-bottom: 8px;
 }
 
-.humanlabs-contact-form form {
+.labs__form form {
     margin-top: 24px;
 }
 
@@ -464,11 +460,11 @@ textarea.form-control {
     font-weight: 400;
 }
 
-.humanlabs-contact-form .row>* {
+.labs__form .row>* {
     padding: 0 8px;
 }
 
-.humanlabs-contact-form .row {
+.labs__form .row {
     margin: 0 -8px;
 }
 

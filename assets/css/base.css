@@ -12,6 +12,7 @@
   --clr-theme-gold-soft: 239, 227, 210;
   --clr-verified: 112, 144, 96;
   --clr-verified-bg: 238, 242, 232;
+  --clr-cream-bg: 251, 246, 239;
   --clr-theme-muted: 103, 99, 91;
   --clr-theme-slate: 73, 68, 60;
   --clr-theme-muted-bg: 235, 224, 203;
@@ -415,10 +416,7 @@ h6 {
 .form-control::placeholder {
   color: #9ca3af;
 }
-textarea.form-control {
-  min-height: 142px;
-  resize: none;
-}
+
 
 /*================== KEYFRAMES =================*/
 
