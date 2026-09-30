@@ -151,43 +151,6 @@ video {
   left: 0;
 }
 
-.poplyn__bgImg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
-.poplyn__bgImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-  z-index: -1;
-}
-
-section[class^="poplyn__"] {
-  position: relative;
-  z-index: 3;
-}
-
-.poplyn__bg-light {
-  background-color: rgba(var(--clr-theme-bg), 1);
-}
-.labs__bg-muted {
-  background-color: rgba(var(--clr-theme-muted-bg), 1);
-}
-.poplyn__bg-purple {
-  background-color: var(--clr-theme-purple);
-}
-
-.poplyn__bg-dark {
-  background-color: var(--clr-theme-dark);
-  color: var(--clr-white);
-}
-
 /*================== COMPONENTS =================*/
 
 /**

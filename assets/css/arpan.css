@@ -371,7 +371,6 @@
 /* Contact Us Start */
 
 .labs__content p a {
-    font-size: 18px;
     line-height: 1.6;
     color: #67635b;
 }
@@ -551,3 +550,179 @@ input[type=number] {
 }
 
 /* Contact Us End */
+
+
+@media (max-width:1899px) {
+
+    /* About Page Start */
+
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+
+}
+
+@media (max-width:1599px) {
+
+    /* About Page Start */
+    .py-20 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
+
+@media (max-width:1399px) {
+
+    /* About Page Start */
+    .inner-contents-wrap h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .py-16 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
+
+@media (max-width:1199px) {
+    /* About Page Start */
+
+    .labs__social {
+        padding-top: 0;
+    }
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
+
+@media (max-width:991px) {
+    /* About Page Start */
+
+    .inner-contents-wrap .labs__content p {
+        font-size: 16px;
+    }
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
+
+@media (max-width:767px) {
+    /* About Page Start */
+
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
+
+@media (max-width:575px) {
+    /* About Page Start */
+
+
+    /* About Page End */
+
+    /* Lab Result Page Start */
+
+
+    /* Lab Result Page End */
+
+    /* Contact Page Start */
+
+
+    /* Contact Page End */
+
+    /* Privacy Page Start */
+
+
+    /* Privacy Page End */
+}
